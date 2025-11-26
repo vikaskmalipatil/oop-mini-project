@@ -1,0 +1,18 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+.card {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+button {
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+}

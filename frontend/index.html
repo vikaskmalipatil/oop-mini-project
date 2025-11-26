@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<h1>Fitness Tracker</h1>
+
+<div class="card">
+    <h2>Add User</h2>
+    <input id="u_name" placeholder="Name">
+    <input id="u_age" placeholder="Age" type="number">
+    <input id="u_height" placeholder="Height (m)" type="number" step="0.01">
+    <input id="u_weight" placeholder="Weight (kg)" type="number">
+    <button onclick="addUser()">Add User</button>
+    <pre id="userOut"></pre>
+</div>
+
+<div class="card">
+    <h2>Add Workout</h2>
+    <input id="w_name" placeholder="User Name">
+    <input id="w_type" placeholder="Type">
+    <input id="w_duration" placeholder="Duration (min)" type="number">
+    <input id="w_calories" placeholder="Calories" type="number">
+    <button onclick="addWorkout()">Add Workout</button>
+    <pre id="workOut"></pre>
+</div>
+
+<div class="card">
+    <h2>Get Stats</h2>
+    <input id="s_name" placeholder="User Name">
+    <button onclick="getStats()">Get Stats</button>
+    <pre id="statsOut"></pre>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
